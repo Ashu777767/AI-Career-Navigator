@@ -50,7 +50,7 @@ export default function Dashboard() {
     const fetchAnalysis = async () => {
       try {
         const response = await axios.get(
-          "http://https://careerpilot-backend-q0il.onrender.com/analysis/latest",
+          "https://careerpilot-backend-q0il.onrender.com/analysis/latest",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -95,7 +95,7 @@ export default function Dashboard() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://https://careerpilot-backend-q0il.onrender.com/upload",
+        "https://careerpilot-backend-q0il.onrender.com/upload",
         formData,
         {
           headers: {

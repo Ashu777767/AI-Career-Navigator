@@ -37,7 +37,7 @@ export default function Profile() {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          "http://https://careerpilot-backend-q0il.onrender.com/profile",
+          "https://careerpilot-backend-q0il.onrender.com/profile",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -83,7 +83,7 @@ export default function Profile() {
       console.log("TOKEN =", token);
 
       const response = await axios.put(
-        "http://https://careerpilot-backend-q0il.onrender.com/profile",
+        "https://careerpilot-backend-q0il.onrender.com/profile",
         {
           name: editForm.name,
           targetRole: editForm.targetRole,

@@ -107,7 +107,7 @@ const Register = () => {
 
     try {
       await axios.post(
-        "http://https://careerpilot-backend-q0il.onrender.com/register",
+        "https://careerpilot-backend-q0il.onrender.com/register",
         {
           name: name.trim(),
           email: email.trim(),

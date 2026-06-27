@@ -17,7 +17,7 @@ export default function ResumeAnalysis() {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          "http://https://careerpilot-backend-q0il.onrender.com/analysis/latest",
+          "https://careerpilot-backend-q0il.onrender.com/analysis/latest",
           {
             headers: {
               Authorization: `Bearer ${token}`,

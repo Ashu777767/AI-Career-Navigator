@@ -109,7 +109,7 @@ export default function InterviewPrep() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://https://careerpilot-backend-q0il.onrender.com/api/interview/start",
+        "https://careerpilot-backend-q0il.onrender.com/api/interview/start",
         {
           role: targetRole,
           difficulty: difficulty,
@@ -154,7 +154,7 @@ export default function InterviewPrep() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://https://careerpilot-backend-q0il.onrender.com/api/interview/evaluate",
+        "https://careerpilot-backend-q0il.onrender.com/api/interview/evaluate",
         {
           question: question,
           answer: answer,

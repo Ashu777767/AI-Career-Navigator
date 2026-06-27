@@ -54,7 +54,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://https://careerpilot-backend-q0il.onrender.com/login",
+        "https://careerpilot-backend-q0il.onrender.com/login",
         {
           email: email.trim(),
           password,
