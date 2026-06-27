@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/hello")
-    public String hello() {
-        return "AI Career Navigator Backend Running!";
-    }
+public String hello() {
+    System.out.println("HELLO ENDPOINT HIT");
+    return "AI Career Navigator Backend Running!";
+}
 }

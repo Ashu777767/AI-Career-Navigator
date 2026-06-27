@@ -43,6 +43,7 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http)
         .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
                         "/register",
+                        "/hello",
                         "/login",
                         "/api/interview/**"
                 ).permitAll()
