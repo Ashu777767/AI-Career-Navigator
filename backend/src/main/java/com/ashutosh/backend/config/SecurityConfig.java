@@ -69,10 +69,10 @@ public CorsConfigurationSource corsConfigurationSource() {
     CorsConfiguration configuration =
             new CorsConfiguration();
 
-   configuration.setAllowedOrigins(
+  configuration.setAllowedOrigins(
     List.of(
         "http://localhost:5173",
-        "https://ai-career-navigator-i779dbhpe.vercel.app"
+        "https://ai-career-navigator-phi.vercel.app"
     )
 );
 
